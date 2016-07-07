@@ -6,18 +6,16 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.util.Date;
 
-public class SocketClientSample {
+public class SocketClient {
 
 	public static void main(String[] args) {
-		SocketClientSample sample = new SocketClientSample();
-		sample.sendSocketSample();
-	}
+		SocketClient sample = new SocketClient();
 
-	public void sendSocketSample() {
 		for (int loop = 0; loop < 3; loop++) {
-			sendSocketData("I liked java at " + new Date());
-		}
-		sendSocketData("EXIT");
+            sample.sendSocketData("I like Java at " + new Date());
+        }
+
+        sample.sendSocketData("EXIT");
 	}
 
 	public void sendSocketData(String data) {
@@ -30,12 +28,15 @@ public class SocketClientSample {
 			
 			Thread.sleep(1000);
 			
-			OutputStream stream = socket.getOutputStream();
-			BufferedOutputStream out = new BufferedOutputStream(stream);
+			OutputStream os = socket.getOutputStream();
+			BufferedOutputStream out = new BufferedOutputStream(os);
+
 			byte[] bytes = data.getBytes();
 			out.write(bytes);
 			System.out.println("Client:Sent data");
+
 			out.close();
+            System.out.println("Client:closed");
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (InterruptedException e) {
