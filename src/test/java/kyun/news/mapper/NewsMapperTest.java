@@ -14,7 +14,7 @@ import kyun.news.vo.NewsVo;
 
 @ContextConfiguration(locations = "classpath:app-context-test.xml")
 @RunWith(SpringJUnit4ClassRunner.class)
-public class SampleMapperTest {
+public class NewsMapperTest {
     
     @Autowired
     NewsMapper mapper;
