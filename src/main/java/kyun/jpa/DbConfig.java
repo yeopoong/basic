@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan(basePackages = { "kyun.jpa" })
+@ComponentScan(basePackages = { "kyun.jpa", "kyun.framework.service" })
 @PropertySource("classpath:META-INF/properties/application.properties")
 public class DbConfig {
 
