@@ -11,7 +11,7 @@
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css"/>
     <meta http-equiv="Content-Type" content="text/html; UTF-8" />
-    <title>Spring Hibernate Gradle Example</title>
+    <title>Spring Example</title>
 </head>
 <body>
 <h1>Team 관리</h1>

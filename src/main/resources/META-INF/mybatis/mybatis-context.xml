@@ -12,7 +12,7 @@
     </bean> 
        
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="kyun.news" />
+        <property name="basePackage" value="kyun.framework.news" />
         <property name="annotationClass" value="org.springframework.stereotype.Repository"/>
     </bean>
 
