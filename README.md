@@ -26,32 +26,32 @@
   1. JPA
 
 ### 6. 빌드 및 배포
-  1. Maven 개요
+  1. Maven 개요  
     * Plugin & Goal
     * Task
     * Dependency
-  2. Nexus 
+  2. Nexus  
     * Nexus repository 
     * snapshot & release
-  3. Jenkins 
+  3. Jenkins  
     * 지속적 통합(Continous Integration)
     * Jenkins를 이용한 빌드 및 배포 
-  4. Gradle 개요
+  4. Gradle 개요  
     * Plugin & Goal
     * Task
     * Dependency
 
 ### 7. 프레임워크
-  1. Spring Framework 개요 
+  1. Spring Framework 개요  
     * Lightweight Container Architecture
     * IoC(Inversion of Control) 
     * Dependency Injection
-  2. Spring Web MVC
+  2. Spring Web MVC  
     * MVC Architecture
     * Spring 환경설정
     * Controller
     * Service
     * DAO
-  3. REST API 
+  3. REST API  
     * REST 개요 
     * JSON 을 이용한 요청/응답
